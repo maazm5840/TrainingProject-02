@@ -1,0 +1,20 @@
+ECG MACHINE EQUIPMENT MANUAL
+
+Purpose:
+This manual explains the operation and maintenance of the ECG machine.
+
+Operating Instructions:
+1. Connect the ECG machine to the power supply.
+2. Attach the patient electrodes correctly.
+3. Turn on the machine and select the required settings.
+4. Record the patient's ECG.
+5. Save or print the results.
+
+Maintenance:
+Clean the electrodes after use.
+Inspect the cables regularly.
+Keep the machine in a dry and safe location.
+Report any equipment malfunction to the biomedical department.
+
+Safety:
+Only trained hospital staff should operate the ECG machine.

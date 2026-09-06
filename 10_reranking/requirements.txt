@@ -1,0 +1,9 @@
+sentence-transformers
+torch
+numpy
+fastapi
+uvicorn
+pydantic
+chromadb
+pypdf
+python-docx

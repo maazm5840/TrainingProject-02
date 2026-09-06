@@ -1,1 +1,16 @@
+def query_router(query_type):
 
+    if query_type in [
+        "Medication Query",
+        "Emergency Query"
+    ]:
+
+        return "HYBRID"
+
+    elif query_type == "Definition Query":
+
+        return "VECTOR"
+
+    else:
+
+        return "HYBRID"

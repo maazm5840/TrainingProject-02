@@ -1,0 +1,131 @@
+[
+  {
+    "text": "The patient has hypertension.",
+    "annotations": [
+      ["hypertension", "DISEASE"]
+    ]
+  },
+  {
+    "text": "The patient complains of abdominal pain and nausea.",
+    "annotations": [
+      ["abdominal pain", "SYMPTOM"],
+      ["nausea", "SYMPTOM"]
+    ]
+  },
+  {
+    "text": "Administer Amoxicillin 250 mg three times daily.",
+    "annotations": [
+      ["Amoxicillin", "MEDICATION"],
+      ["250 mg", "DOSAGE"],
+      ["three times daily", "FREQUENCY"]
+    ]
+  },
+  {
+    "text": "Continue antibiotics for 7 days.",
+    "annotations": [
+      ["antibiotics", "MEDICATION"],
+      ["7 days", "DURATION"]
+    ]
+  },
+  {
+    "text": "The doctor should perform physical examination.",
+    "annotations": [
+      ["doctor", "PERSON_ROLE"],
+      ["physical examination", "PROCEDURE"]
+    ]
+  },
+  {
+    "text": "The nurse should operate the infusion pump.",
+    "annotations": [
+      ["nurse", "PERSON_ROLE"],
+      ["infusion pump", "EQUIPMENT"]
+    ]
+  },
+  {
+    "text": "The patient was admitted to the ICU.",
+    "annotations": [
+      ["ICU", "DEPARTMENT"]
+    ]
+  },
+  {
+    "text": "The pharmacist should dispense Metformin.",
+    "annotations": [
+      ["pharmacist", "PERSON_ROLE"],
+      ["Metformin", "MEDICATION"]
+    ]
+  },
+  {
+    "text": "Perform a liver function test.",
+    "annotations": [
+      ["liver function test", "LAB_TEST"]
+    ]
+  },
+  {
+    "text": "Follow the patient safety policy.",
+    "annotations": [
+      ["patient safety policy", "POLICY"]
+    ]
+  },
+  {
+    "text": "The patient was referred to the district hospital.",
+    "annotations": [
+      ["district hospital", "LOCATION"]
+    ]
+  },
+  {
+    "text": "Monitor the patient every 2 hours for 30 minutes.",
+    "annotations": [
+      ["every 2 hours", "FREQUENCY"],
+      ["30 minutes", "DURATION"]
+    ]
+  },
+  {
+    "text": "The patient has asthma and shortness of breath.",
+    "annotations": [
+      ["asthma", "DISEASE"],
+      ["shortness of breath", "SYMPTOM"]
+    ]
+  },
+  {
+    "text": "The biomedical engineer should inspect the ventilator.",
+    "annotations": [
+      ["biomedical engineer", "PERSON_ROLE"],
+      ["ventilator", "EQUIPMENT"]
+    ]
+  },
+  {
+    "text": "The patient was transferred to the Blood Bank.",
+    "annotations": [
+      ["Blood Bank", "DEPARTMENT"]
+    ]
+  },
+  {
+    "text": "Give Paracetamol 650 mg every 6 hours.",
+    "annotations": [
+      ["Paracetamol", "MEDICATION"],
+      ["650 mg", "DOSAGE"],
+      ["every 6 hours", "FREQUENCY"]
+    ]
+  },
+  {
+    "text": "Perform blood transfusion according to the blood transfusion policy.",
+    "annotations": [
+      ["blood transfusion", "PROCEDURE"],
+      ["blood transfusion policy", "POLICY"]
+    ]
+  },
+  {
+    "text": "The patient has kidney disease.",
+    "annotations": [
+      ["kidney disease", "DISEASE"]
+    ]
+  },
+  {
+    "text": "How many patients are there in your hospital?",
+    "annotations": []
+  },
+  {
+    "text": "How many diabetics patients are there in the hospital?",
+    "annotations": []
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {"text":"The patient has diabetes.","annotations":[["diabetes","DISEASE"]]},
+  {"text":"The patient was diagnosed with hypertension.","annotations":[["hypertension","DISEASE"]]},
+  {"text":"The patient has pneumonia.","annotations":[["pneumonia","DISEASE"]]},
+  {"text":"The patient has asthma.","annotations":[["asthma","DISEASE"]]},
+  {"text":"The patient was diagnosed with tuberculosis.","annotations":[["tuberculosis","DISEASE"]]},
+  {"text":"The patient has malaria.","annotations":[["malaria","DISEASE"]]},
+  {"text":"The patient has cancer.","annotations":[["cancer","DISEASE"]]},
+  {"text":"The patient has kidney disease.","annotations":[["kidney disease","DISEASE"]]},
+  {"text":"The patient has heart disease.","annotations":[["heart disease","DISEASE"]]},
+  {"text":"The patient was diagnosed with hepatitis.","annotations":[["hepatitis","DISEASE"]]},
+  {"text":"The patient has dengue fever.","annotations":[["dengue fever","DISEASE"]]},
+  {"text":"The patient has anemia.","annotations":[["anemia","DISEASE"]]},
+  {"text":"The patient has epilepsy.","annotations":[["epilepsy","DISEASE"]]},
+  {"text":"The patient has chronic kidney disease.","annotations":[["chronic kidney disease","DISEASE"]]},
+  {"text":"The patient was diagnosed with pneumonia and diabetes.","annotations":[["pneumonia","DISEASE"],["diabetes","DISEASE"]]},
+  {"text":"Hypertension is common among hospitalized patients.","annotations":[["Hypertension","DISEASE"]]},
+  {"text":"Cancer requires appropriate medical management.","annotations":[["Cancer","DISEASE"]]},
+  {"text":"Patients with diabetes require regular monitoring.","annotations":[["diabetes","DISEASE"]]},
+  {"text":"The doctor confirmed tuberculosis.","annotations":[["tuberculosis","DISEASE"]]},
+  {"text":"The patient has diabetes with hypertension.","annotations":[["diabetes","DISEASE"],["hypertension","DISEASE"]]},
+  {"text":"The patient has fever.","annotations":[["fever","SYMPTOM"]]},
+  {"text":"The patient reports severe headache.","annotations":[["severe headache","SYMPTOM"]]},
+  {"text":"The patient has chest pain.","annotations":[["chest pain","SYMPTOM"]]},
+  {"text":"The patient complains of abdominal pain.","annotations":[["abdominal pain","SYMPTOM"]]},
+  {"text":"The patient has difficulty breathing.","annotations":[["difficulty breathing","SYMPTOM"]]},
+  {"text":"The patient reports nausea.","annotations":[["nausea","SYMPTOM"]]},
+  {"text":"The patient has vomiting.","annotations":[["vomiting","SYMPTOM"]]},
+  {"text":"The patient reports dizziness.","annotations":[["dizziness","SYMPTOM"]]},
+  {"text":"The patient has severe cough.","annotations":[["severe cough","SYMPTOM"]]},
+  {"text":"The patient complains of weakness.","annotations":[["weakness","SYMPTOM"]]},
+  {"text":"The patient has fatigue.","annotations":[["fatigue","SYMPTOM"]]},
+  {"text":"The patient reports shortness of breath.","annotations":[["shortness of breath","SYMPTOM"]]},
+  {"text":"The patient has loss of appetite.","annotations":[["loss of appetite","SYMPTOM"]]},
+  {"text":"The patient reports back pain.","annotations":[["back pain","SYMPTOM"]]},
+  {"text":"The patient has swelling of the legs.","annotations":[["swelling of the legs","SYMPTOM"]]},
+  {"text":"The patient complains of sore throat.","annotations":[["sore throat","SYMPTOM"]]},
+  {"text":"The patient reports blurred vision.","annotations":[["blurred vision","SYMPTOM"]]},
+  {"text":"The patient has chills and fever.","annotations":[["chills","SYMPTOM"],["fever","SYMPTOM"]]},
+  {"text":"The patient has cough and difficulty breathing.","annotations":[["cough","SYMPTOM"],["difficulty breathing","SYMPTOM"]]},
+  {"text":"The patient reports headache and dizziness.","annotations":[["headache","SYMPTOM"],["dizziness","SYMPTOM"]]},
+  {"text":"The nurse should administer Paracetamol.","annotations":[["nurse","PERSON_ROLE"],["Paracetamol","MEDICATION"]]},
+  {"text":"The patient was prescribed Amoxicillin.","annotations":[["Amoxicillin","MEDICATION"]]},
+  {"text":"Give the patient Ibuprofen.","annotations":[["Ibuprofen","MEDICATION"]]},
+  {"text":"The doctor prescribed Metformin.","annotations":[["Metformin","MEDICATION"]]},
+  {"text":"Administer Insulin as prescribed.","annotations":[["Insulin","MEDICATION"]]},
+  {"text":"The pharmacy should dispense Azithromycin.","annotations":[["Azithromycin","MEDICATION"]]},
+  {"text":"The patient received Ceftriaxone.","annotations":[["Ceftriaxone","MEDICATION"]]},
+  {"text":"Administer Aspirin to the patient.","annotations":[["Aspirin","MEDICATION"]]},
+  {"text":"The patient is receiving Amoxicillin treatment.","annotations":[["Amoxicillin","MEDICATION"]]},
+  {"text":"Store Paracetamol according to hospital policy.","annotations":[["Paracetamol","MEDICATION"],["hospital policy","POLICY"]]},
+  {"text":"The pharmacist should verify Metformin.","annotations":[["pharmacist","PERSON_ROLE"],["Metformin","MEDICATION"]]},
+  {"text":"The doctor ordered Insulin.","annotations":[["doctor","PERSON_ROLE"],["Insulin","MEDICATION"]]},
+  {"text":"Paracetamol should be administered to the patient.","annotations":[["Paracetamol","MEDICATION"]]},
+  {"text":"Amoxicillin should be stored properly.","annotations":[["Amoxicillin","MEDICATION"]]},
+  {"text":"The patient should receive Cefixime.","annotations":[["Cefixime","MEDICATION"]]},
+  {"text":"The pharmacy has Azithromycin available.","annotations":[["Azithromycin","MEDICATION"]]},
+  {"text":"Give Ondansetron to control vomiting.","annotations":[["Ondansetron","MEDICATION"],["vomiting","SYMPTOM"]]},
+  {"text":"The patient was given Salbutamol for breathing difficulty.","annotations":[["Salbutamol","MEDICATION"],["breathing difficulty","SYMPTOM"]]},
+  {"text":"The nurse administered Paracetamol for fever.","annotations":[["nurse","PERSON_ROLE"],["Paracetamol","MEDICATION"],["fever","SYMPTOM"]]},
+  {"text":"The patient received antibiotics.","annotations":[["antibiotics","MEDICATION"]]},
+  {"text":"Perform catheter insertion.","annotations":[["catheter insertion","PROCEDURE"]]},
+  {"text":"The doctor should examine the patient.","annotations":[["doctor","PERSON_ROLE"]]},
+  {"text":"Perform wound dressing.","annotations":[["wound dressing","PROCEDURE"]]},
+  {"text":"The nurse should perform blood transfusion.","annotations":[["nurse","PERSON_ROLE"],["blood transfusion","PROCEDURE"]]},
+  {"text":"Carry out surgical preparation before the operation.","annotations":[["surgical preparation","PROCEDURE"]]},
+  {"text":"Perform patient registration.","annotations":[["patient registration","PROCEDURE"]]},
+  {"text":"The staff should perform hand washing.","annotations":[["hand washing","PROCEDURE"]]},
+  {"text":"Follow the procedure for sterilization.","annotations":[["sterilization","PROCEDURE"]]},
+  {"text":"Perform safe blood transfusion practices.","annotations":[["blood transfusion","PROCEDURE"]]},
+  {"text":"The surgeon should perform catheter insertion.","annotations":[["surgeon","PERSON_ROLE"],["catheter insertion","PROCEDURE"]]},
+  {"text":"Perform emergency resuscitation.","annotations":[["emergency resuscitation","PROCEDURE"]]},
+  {"text":"The nurse should collect the blood sample.","annotations":[["nurse","PERSON_ROLE"],["blood sample collection","PROCEDURE"]]},
+  {"text":"Perform patient assessment before surgery.","annotations":[["patient assessment","PROCEDURE"]]},
+  {"text":"The doctor should perform physical examination.","annotations":[["doctor","PERSON_ROLE"],["physical examination","PROCEDURE"]]},
+  {"text":"Perform wound cleaning before dressing.","annotations":[["wound cleaning","PROCEDURE"]]},
+  {"text":"The team should follow surgical safety procedures.","annotations":[["surgical safety procedures","PROCEDURE"]]},
+  {"text":"Perform immunization according to the schedule.","annotations":[["immunization","PROCEDURE"]]},
+  {"text":"The staff should perform waste segregation.","annotations":[["waste segregation","PROCEDURE"]]},
+  {"text":"Perform safe abortion services according to hospital guidelines.","annotations":[["safe abortion services","PROCEDURE"]]},
+  {"text":"The nurse should perform vital sign monitoring.","annotations":[["nurse","PERSON_ROLE"],["vital sign monitoring","PROCEDURE"]]},
+  {"text":"Use the ventilator for patients with breathing difficulty.","annotations":[["ventilator","EQUIPMENT"],["breathing difficulty","SYMPTOM"]]},
+  {"text":"Check the oxygen concentrator before use.","annotations":[["oxygen concentrator","EQUIPMENT"]]},
+  {"text":"The infusion pump should be checked regularly.","annotations":[["infusion pump","EQUIPMENT"]]},
+  {"text":"The hospital should maintain the ECG machine.","annotations":[["ECG machine","EQUIPMENT"]]},
+  {"text":"Use the defibrillator during emergency care.","annotations":[["defibrillator","EQUIPMENT"]]},
+  {"text":"The nurse should operate the ventilator.","annotations":[["nurse","PERSON_ROLE"],["ventilator","EQUIPMENT"]]},
+  {"text":"Check the suction machine before the procedure.","annotations":[["suction machine","EQUIPMENT"],["procedure","PROCEDURE"]]},
+  {"text":"The oxygen concentrator should be checked before use.","annotations":[["oxygen concentrator","EQUIPMENT"]]},
+  {"text":"Maintain the patient monitor properly.","annotations":[["patient monitor","EQUIPMENT"]]},
+  {"text":"The hospital should maintain the anesthesia machine.","annotations":[["anesthesia machine","EQUIPMENT"]]},
+  {"text":"Check the autoclave before sterilization.","annotations":[["autoclave","EQUIPMENT"],["sterilization","PROCEDURE"]]},
+  {"text":"The operating table should be cleaned after surgery.","annotations":[["operating table","EQUIPMENT"]]},
+  {"text":"Use the blood pressure monitor.","annotations":[["blood pressure monitor","EQUIPMENT"]]},
+  {"text":"The hospital requires a refrigerator for vaccines.","annotations":[["refrigerator","EQUIPMENT"]]},
+  {"text":"Maintain the suction apparatus in the emergency area.","annotations":[["suction apparatus","EQUIPMENT"]]},
+  {"text":"The biomedical team should inspect the ventilator.","annotations":[["biomedical team","PERSON_ROLE"],["ventilator","EQUIPMENT"]]},
+  {"text":"The oxygen cylinder should be secured properly.","annotations":[["oxygen cylinder","EQUIPMENT"]]},
+  {"text":"Check the X-ray machine before use.","annotations":[["X-ray machine","EQUIPMENT"]]},
+  {"text":"The laboratory should maintain the centrifuge.","annotations":[["centrifuge","EQUIPMENT"]]},
+  {"text":"The blood bank should maintain the blood storage refrigerator.","annotations":[["blood storage refrigerator","EQUIPMENT"]]},
+  {"text":"The patient was admitted to the Emergency Department.","annotations":[["Emergency Department","DEPARTMENT"]]},
+  {"text":"The patient was transferred to the ICU.","annotations":[["ICU","DEPARTMENT"]]},
+  {"text":"The Laboratory should process the sample.","annotations":[["Laboratory","DEPARTMENT"]]},
+  {"text":"The Pharmacy should verify the medication.","annotations":[["Pharmacy","DEPARTMENT"]]},
+  {"text":"The patient was referred to Radiology.","annotations":[["Radiology","DEPARTMENT"]]},
+  {"text":"The Surgery Department handles surgical cases.","annotations":[["Surgery Department","DEPARTMENT"]]},
+  {"text":"The Blood Bank should maintain blood supplies.","annotations":[["Blood Bank","DEPARTMENT"]]},
+  {"text":"The Pediatrics Department should examine the child.","annotations":[["Pediatrics Department","DEPARTMENT"]]},
+  {"text":"The Obstetrics Department manages maternity services.","annotations":[["Obstetrics Department","DEPARTMENT"]]},
+  {"text":"The Gynecology Department should assess the patient.","annotations":[["Gynecology Department","DEPARTMENT"]]},
+  {"text":"The Intensive Care Unit monitors critical patients.","annotations":[["Intensive Care Unit","DEPARTMENT"]]},
+  {"text":"The outpatient department receives patients.","annotations":[["outpatient department","DEPARTMENT"]]},
+  {"text":"The central sterilization department handles sterilization.","annotations":[["central sterilization department","DEPARTMENT"]]},
+  {"text":"The hospital laboratory performs diagnostic tests.","annotations":[["hospital laboratory","DEPARTMENT"]]},
+  {"text":"The pharmacy stores medicines.","annotations":[["pharmacy","DEPARTMENT"]]},
+  {"text":"The emergency department provides emergency care.","annotations":[["emergency department","DEPARTMENT"]]},
+  {"text":"The operating theatre receives surgical patients.","annotations":[["operating theatre","DEPARTMENT"]]},
+  {"text":"The ICU provides critical care.","annotations":[["ICU","DEPARTMENT"]]},
+  {"text":"The radiology department performs imaging services.","annotations":[["radiology department","DEPARTMENT"]]},
+  {"text":"The blood bank manages blood storage.","annotations":[["blood bank","DEPARTMENT"]]},
+  {"text":"The nurse should monitor the patient.","annotations":[["nurse","PERSON_ROLE"]]},
+  {"text":"The staff nurse should document vital signs.","annotations":[["staff nurse","PERSON_ROLE"]]},
+  {"text":"The doctor should examine the patient.","annotations":[["doctor","PERSON_ROLE"]]},
+  {"text":"The surgeon should perform the operation.","annotations":[["surgeon","PERSON_ROLE"]]},
+  {"text":"The pharmacist should verify the medication.","annotations":[["pharmacist","PERSON_ROLE"]]},
+  {"text":"The laboratory technician should process the sample.","annotations":[["laboratory technician","PERSON_ROLE"]]},
+  {"text":"The radiologist should review the image.","annotations":[["radiologist","PERSON_ROLE"]]},
+  {"text":"The nurse should record the patient's temperature.","annotations":[["nurse","PERSON_ROLE"]]},
+  {"text":"The medical officer should review the case.","annotations":[["medical officer","PERSON_ROLE"]]},
+  {"text":"The nursing supervisor should monitor the ward.","annotations":[["nursing supervisor","PERSON_ROLE"]]},
+  {"text":"The hospital administrator should review the report.","annotations":[["hospital administrator","PERSON_ROLE"]]},
+  {"text":"The infection control nurse should monitor hygiene.","annotations":[["infection control nurse","PERSON_ROLE"]]},
+  {"text":"The staff nurse should administer the medication.","annotations":[["staff nurse","PERSON_ROLE"]]},
+  {"text":"The anesthetist should assess the patient.","annotations":[["anesthetist","PERSON_ROLE"]]},
+  {"text":"The biomedical engineer should inspect the equipment.","annotations":[["biomedical engineer","PERSON_ROLE"]]},
+  {"text":"The dietitian should assess the patient's diet.","annotations":[["dietitian","PERSON_ROLE"]]},
+  {"text":"The pharmacist should dispense the medicine.","annotations":[["pharmacist","PERSON_ROLE"]]},
+  {"text":"The surgeon should perform catheter insertion.","annotations":[["surgeon","PERSON_ROLE"]]},
+  {"text":"The doctor prescribed the medication.","annotations":[["doctor","PERSON_ROLE"]]},
+  {"text":"The nurse should report any abnormal findings.","annotations":[["nurse","PERSON_ROLE"]]},
+  {"text":"The District Hospital provides emergency services.","annotations":[["District Hospital","LOCATION"]]},
+  {"text":"The patient was transferred to the district hospital.","annotations":[["district hospital","LOCATION"]]},
+  {"text":"The hospital is located in the district.","annotations":[["district","LOCATION"]]},
+  {"text":"The patient was referred from the District Hospital.","annotations":[["District Hospital","LOCATION"]]},
+  {"text":"The case was transferred from the rural hospital.","annotations":[["rural hospital","LOCATION"]]},
+  {"text":"The patient was referred to the tertiary hospital.","annotations":[["tertiary hospital","LOCATION"]]},
+  {"text":"The patient was transferred from the community health centre.","annotations":[["community health centre","LOCATION"]]},
+  {"text":"The emergency unit is located near the main hospital.","annotations":[["main hospital","LOCATION"]]},
+  {"text":"The patient was referred to the referral hospital.","annotations":[["referral hospital","LOCATION"]]},
+  {"text":"The district hospital provides specialist services.","annotations":[["district hospital","LOCATION"]]},
+  {"text":"The rural health centre provides primary care.","annotations":[["rural health centre","LOCATION"]]},
+  {"text":"The patient was transferred to the teaching hospital.","annotations":[["teaching hospital","LOCATION"]]},
+  {"text":"The case was referred to the regional hospital.","annotations":[["regional hospital","LOCATION"]]},
+  {"text":"The patient came from the District Hospital.","annotations":[["District Hospital","LOCATION"]]},
+  {"text":"The referral was made to the district hospital.","annotations":[["district hospital","LOCATION"]]},
+  {"text":"The patient was admitted at the general hospital.","annotations":[["general hospital","LOCATION"]]},
+  {"text":"The ambulance arrived at the district hospital.","annotations":[["district hospital","LOCATION"]]},
+  {"text":"The patient was transferred from the primary health centre.","annotations":[["primary health centre","LOCATION"]]},
+  {"text":"The hospital serves the surrounding district.","annotations":[["district","LOCATION"]]},
+  {"text":"The patient was referred to the nearest hospital.","annotations":[["nearest hospital","LOCATION"]]},
+  {"text":"Perform a Complete Blood Count.","annotations":[["Complete Blood Count","LAB_TEST"]]},
+  {"text":"Perform a blood glucose test.","annotations":[["blood glucose test","LAB_TEST"]]},
+  {"text":"The doctor ordered an ECG test.","annotations":[["ECG test","LAB_TEST"]]},
+  {"text":"Perform a urine test.","annotations":[["urine test","LAB_TEST"]]},
+  {"text":"The laboratory should perform a blood test.","annotations":[["blood test","LAB_TEST"]]},
+  {"text":"Perform a liver function test.","annotations":[["liver function test","LAB_TEST"]]},
+  {"text":"Perform a kidney function test.","annotations":[["kidney function test","LAB_TEST"]]},
+  {"text":"The patient requires a chest X-ray.","annotations":[["chest X-ray","LAB_TEST"]]},
+  {"text":"Perform a malaria test.","annotations":[["malaria test","LAB_TEST"]]},
+  {"text":"Perform a pregnancy test.","annotations":[["pregnancy test","LAB_TEST"]]},
+  {"text":"The doctor requested a thyroid function test.","annotations":[["thyroid function test","LAB_TEST"]]},
+  {"text":"Perform a hemoglobin test.","annotations":[["hemoglobin test","LAB_TEST"]]},
+  {"text":"The laboratory should process the blood test.","annotations":[["laboratory","DEPARTMENT"],["blood test","LAB_TEST"]]},
+  {"text":"Perform an HIV test according to the protocol.","annotations":[["HIV test","LAB_TEST"],["protocol","POLICY"]]},
+  {"text":"The patient requires a sputum test.","annotations":[["sputum test","LAB_TEST"]]},
+  {"text":"Perform a blood culture test.","annotations":[["blood culture test","LAB_TEST"]]},
+  {"text":"The doctor ordered a renal function test.","annotations":[["doctor","PERSON_ROLE"],["renal function test","LAB_TEST"]]},
+  {"text":"Perform an electrolyte test.","annotations":[["electrolyte test","LAB_TEST"]]},
+  {"text":"The laboratory performed a complete blood count.","annotations":[["laboratory","DEPARTMENT"],["complete blood count","LAB_TEST"]]},
+  {"text":"Perform a serum creatinine test.","annotations":[["serum creatinine test","LAB_TEST"]]},
+  {"text":"Give Paracetamol 500 mg.","annotations":[["Paracetamol","MEDICATION"],["500 mg","DOSAGE"]]},
+  {"text":"Administer Amoxicillin 250 mg.","annotations":[["Amoxicillin","MEDICATION"],["250 mg","DOSAGE"]]},
+  {"text":"Give Ibuprofen 400 mg.","annotations":[["Ibuprofen","MEDICATION"],["400 mg","DOSAGE"]]},
+  {"text":"Administer 10 mL of the solution.","annotations":[["10 mL","DOSAGE"]]},
+  {"text":"Give 5 mL of the medication.","annotations":[["5 mL","DOSAGE"]]},
+  {"text":"The patient received 2 tablets.","annotations":[["2 tablets","DOSAGE"]]},
+  {"text":"Administer 1 capsule as prescribed.","annotations":[["1 capsule","DOSAGE"]]},
+  {"text":"Give Paracetamol 650 mg.","annotations":[["Paracetamol","MEDICATION"],["650 mg","DOSAGE"]]},
+  {"text":"Administer 100 mg of the medication.","annotations":[["100 mg","DOSAGE"]]},
+  {"text":"The prescribed dose is 20 mg.","annotations":[["20 mg","DOSAGE"]]},
+  {"text":"Give Paracetamol once daily.","annotations":[["Paracetamol","MEDICATION"],["once daily","FREQUENCY"]]},
+  {"text":"Administer the medication twice daily.","annotations":[["twice daily","FREQUENCY"]]},
+  {"text":"Give the medicine three times daily.","annotations":[["three times daily","FREQUENCY"]]},
+  {"text":"Administer the medication every 4 hours.","annotations":[["every 4 hours","FREQUENCY"]]},
+  {"text":"Check the patient every hour.","annotations":[["every hour","FREQUENCY"]]},
+  {"text":"Monitor vital signs every 2 hours.","annotations":[["vital signs","LAB_TEST"],["every 2 hours","FREQUENCY"]]},
+  {"text":"Give the medication every 6 hours.","annotations":[["every 6 hours","FREQUENCY"]]},
+  {"text":"Administer the drug once daily as prescribed.","annotations":[["once daily","FREQUENCY"]]},
+  {"text":"The patient should be monitored twice daily.","annotations":[["twice daily","FREQUENCY"]]},
+  {"text":"Check the equipment every day.","annotations":[["every day","FREQUENCY"]]},
+  {"text":"Continue treatment for 5 days.","annotations":[["5 days","DURATION"]]},
+  {"text":"Give the medication for 2 weeks.","annotations":[["2 weeks","DURATION"]]},
+  {"text":"Continue therapy for 3 months.","annotations":[["3 months","DURATION"]]},
+  {"text":"Monitor the patient for 30 minutes.","annotations":[["30 minutes","DURATION"]]},
+  {"text":"Continue observation for 24 hours.","annotations":[["24 hours","DURATION"]]},
+  {"text":"The treatment should continue for 7 days.","annotations":[["7 days","DURATION"]]},
+  {"text":"Keep the patient under observation for 2 hours.","annotations":[["2 hours","DURATION"]]},
+  {"text":"Continue antibiotics for 10 days.","annotations":[["antibiotics","MEDICATION"],["10 days","DURATION"]]},
+  {"text":"The patient requires treatment for 4 weeks.","annotations":[["4 weeks","DURATION"]]},
+  {"text":"Maintain monitoring for 15 minutes.","annotations":[["15 minutes","DURATION"]]},
+  {"text":"Follow the infection control policy.","annotations":[["infection control policy","POLICY"]]},
+  {"text":"Follow the patient safety policy.","annotations":[["patient safety policy","POLICY"]]},
+  {"text":"The hospital follows the antibiotic policy.","annotations":[["antibiotic policy","POLICY"]]},
+  {"text":"Follow the biomedical waste management policy.","annotations":[["biomedical waste management policy","POLICY"]]},
+  {"text":"The hospital should follow the blood transfusion policy.","annotations":[["blood transfusion policy","POLICY"]]},
+  {"text":"Follow the fire safety policy.","annotations":[["fire safety policy","POLICY"]]},
+  {"text":"The pharmacy should follow the medication policy.","annotations":[["medication policy","POLICY"]]},
+  {"text":"Follow the surgical safety policy.","annotations":[["surgical safety policy","POLICY"]]},
+  {"text":"The hospital has an infection prevention policy.","annotations":[["infection prevention policy","POLICY"]]},
+  {"text":"Staff must follow the hospital safety policy.","annotations":[["hospital safety policy","POLICY"]]},
+  {"text":"Follow the waste disposal policy.","annotations":[["waste disposal policy","POLICY"]]},
+  {"text":"The hospital follows the patient safety policy.","annotations":[["patient safety policy","POLICY"]]},
+  {"text":"Follow the emergency care policy.","annotations":[["emergency care policy","POLICY"]]},
+  {"text":"The laboratory follows the laboratory safety policy.","annotations":[["laboratory safety policy","POLICY"]]},
+  {"text":"Follow the blood bank policy.","annotations":[["blood bank policy","POLICY"]]},
+  {"text":"The hospital should implement the infection control policy.","annotations":[["infection control policy","POLICY"]]},
+  {"text":"Staff should comply with the medication safety policy.","annotations":[["medication safety policy","POLICY"]]},
+  {"text":"Follow the clinical waste policy.","annotations":[["clinical waste policy","POLICY"]]},
+  {"text":"The hospital must follow the fire safety policy.","annotations":[["fire safety policy","POLICY"]]},
+  {"text":"Follow the surgical safety checklist policy.","annotations":[["surgical safety checklist policy","POLICY"]]},
+  {
+    "text": "How many diabetics are there in your hospital?",
+    "annotations": []
+  },
+  {
+    "text": "How many patients are there in the hospital?",
+    "annotations": []
+  },
+  {
+    "text": "How many nurses are working today?",
+    "annotations": []
+  },
+  {
+    "text": "There are many patients in the hospital.",
+    "annotations": []
+  },
+  {
+    "text": "The patient is doing well.",
+    "annotations": []
+  },
+  {
+    "text": "This sentence contains a spelling error: dieases.",
+    "annotations": []
+  },
+  {
+    "text": "Diabetics should be monitored regularly.",
+    "annotations": []
+  },
+  {
+    "text": "The patient is in the hospital.",
+    "annotations": []
+  },
+  {
+    "text": "Many people are waiting outside.",
+    "annotations": []
+  },
+  {
+    "text": "The staff should work carefully.",
+    "annotations": []
+  },
+  {
+    "text": "The patient has hypertension.",
+    "annotations": [
+      ["hypertension", "DISEASE"]
+    ]
+  },
+  {
+    "text": "The patient was diagnosed with hypertension.",
+    "annotations": [
+      ["hypertension", "DISEASE"]
+    ]
+  },
+  {
+    "text": "The patient has diabetes and hypertension.",
+    "annotations": [
+      ["diabetes", "DISEASE"],
+      ["hypertension", "DISEASE"]
+    ]
+  },
+  {
+    "text": "The patient reports chest pain.",
+    "annotations": [
+      ["chest pain", "SYMPTOM"]
+    ]
+  },
+  {
+    "text": "The patient has fever and severe headache.",
+    "annotations": [
+      ["fever", "SYMPTOM"],
+      ["severe headache", "SYMPTOM"]
+    ]
+  },   
+  {
+    "text": "Perform a Complete Blood Count.",
+    "annotations": [
+      ["Complete Blood Count", "LAB_TEST"]
+    ]
+  },
+  {
+    "text": "The laboratory technician should perform a Complete Blood Count.",
+    "annotations": [
+      ["laboratory technician", "PERSON_ROLE"],
+      ["Complete Blood Count", "LAB_TEST"]
+    ]
+  },
+  {
+    "text": "A Complete Blood Count should be performed for the patient.",
+    "annotations": [
+      ["Complete Blood Count", "LAB_TEST"]
+    ]
+  },
+  {
+    "text": "Send the patient for a Complete Blood Count test.",
+    "annotations": [
+      ["Complete Blood Count", "LAB_TEST"]
+    ]
+  },
+  {
+    "text": "Use the ventilator for patients requiring respiratory support.",
+    "annotations": [
+      ["ventilator", "EQUIPMENT"]
+    ]
+  },
+  {
+    "text": "Collect a blood sample before the procedure.",
+    "annotations": []
+  },
+  {
+    "text": "The pharmacist should verify all medications before dispensing.",
+    "annotations": [
+      ["pharmacist", "PERSON_ROLE"]
+    ]
+  },
+  {
+    "text": "Record the patient's vital signs every 4 hours.",
+    "annotations": [
+      ["every 4 hours", "FREQUENCY"]
+    ]
+  },
+  {
+    "text": "Patients may require respiratory support during treatment.",
+    "annotations": []
+  },
+  {
+    "text": "The nurse should collect a blood sample from the patient.",
+    "annotations": [
+      ["nurse", "PERSON_ROLE"]
+    ]
+  },
+  {
+    "text": "Check the patient's vital signs regularly.",
+    "annotations": []
+  }
+]
+

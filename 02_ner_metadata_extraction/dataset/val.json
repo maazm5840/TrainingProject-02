@@ -1,0 +1,134 @@
+[
+  {
+    "text": "The patient was diagnosed with diabetes.",
+    "annotations": [
+      ["diabetes", "DISEASE"]
+    ]
+  },
+  {
+    "text": "The patient reports severe headache and fever.",
+    "annotations": [
+      ["severe headache", "SYMPTOM"],
+      ["fever", "SYMPTOM"]
+    ]
+  },
+  {
+    "text": "The nurse should administer Paracetamol 500 mg twice daily.",
+    "annotations": [
+      ["nurse", "PERSON_ROLE"],
+      ["Paracetamol", "MEDICATION"],
+      ["500 mg", "DOSAGE"],
+      ["twice daily", "FREQUENCY"]
+    ]
+  },
+  {
+    "text": "The patient should receive treatment for 5 days.",
+    "annotations": [
+      ["5 days", "DURATION"]
+    ]
+  },
+  {
+    "text": "The surgeon should perform catheter insertion.",
+    "annotations": [
+      ["surgeon", "PERSON_ROLE"],
+      ["catheter insertion", "PROCEDURE"]
+    ]
+  },
+  {
+    "text": "Use the ventilator for patients with difficulty breathing.",
+    "annotations": [
+      ["ventilator", "EQUIPMENT"],
+      ["difficulty breathing", "SYMPTOM"]
+    ]
+  },
+  {
+    "text": "The patient was transferred to the Emergency Department.",
+    "annotations": [
+      ["Emergency Department", "DEPARTMENT"]
+    ]
+  },
+  {
+    "text": "The pharmacist should verify Amoxicillin before dispensing.",
+    "annotations": [
+      ["pharmacist", "PERSON_ROLE"],
+      ["Amoxicillin", "MEDICATION"]
+    ]
+  },
+  {
+    "text": "Perform a Complete Blood Count in the laboratory.",
+    "annotations": [
+      ["Complete Blood Count", "LAB_TEST"],
+      ["laboratory", "DEPARTMENT"]
+    ]
+  },
+  {
+    "text": "Follow the infection control policy.",
+    "annotations": [
+      ["infection control policy", "POLICY"]
+    ]
+  },
+  {
+    "text": "The District Hospital provides emergency services.",
+    "annotations": [
+      ["District Hospital", "LOCATION"]
+    ]
+  },
+  {
+    "text": "Administer the medication every 4 hours for 2 days.",
+    "annotations": [
+      ["every 4 hours", "FREQUENCY"],
+      ["2 days", "DURATION"]
+    ]
+  },
+  {
+    "text": "The patient has pneumonia and chest pain.",
+    "annotations": [
+      ["pneumonia", "DISEASE"],
+      ["chest pain", "SYMPTOM"]
+    ]
+  },
+  {
+    "text": "The laboratory technician should perform a blood test.",
+    "annotations": [
+      ["laboratory technician", "PERSON_ROLE"],
+      ["blood test", "LAB_TEST"]
+    ]
+  },
+  {
+    "text": "The hospital should follow the fire safety policy.",
+    "annotations": [
+      ["fire safety policy", "POLICY"]
+    ]
+  },
+  {
+    "text": "Check the oxygen concentrator before use.",
+    "annotations": [
+      ["oxygen concentrator", "EQUIPMENT"]
+    ]
+  },
+  {
+    "text": "The patient was referred to Radiology.",
+    "annotations": [
+      ["Radiology", "DEPARTMENT"]
+    ]
+  },
+  {
+    "text": "Give Ibuprofen 400 mg once daily.",
+    "annotations": [
+      ["Ibuprofen", "MEDICATION"],
+      ["400 mg", "DOSAGE"],
+      ["once daily", "FREQUENCY"]
+    ]
+  },
+  {
+    "text": "Perform wound dressing according to the hospital policy.",
+    "annotations": [
+      ["wound dressing", "PROCEDURE"],
+      ["hospital policy", "POLICY"]
+    ]
+  },
+  {
+    "text": "How many diabetics are there in the hospital?",
+    "annotations": []
+  }
+]

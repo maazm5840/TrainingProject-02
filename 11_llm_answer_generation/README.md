@@ -64,9 +64,104 @@ The Answer Generator is responsible for:
 ## 🎯 Why It Matters in Hospitals
 - **Safety:** Prevents misinformation in critical medical contexts.  
 - **Efficiency:** Saves staff time by quickly summarizing hospital protocols.  
-- **Trust:** Ensures answers are backed by official hospital records, not general web knowledge.  
+- **Trust:** Ensures answers are backed by official hospital records, not general web knowledge.
+# Hospital SOP LLM Module
+
+## Overview
+
+This module uses a Large Language Model (LLM)
+to generate answers from retrieved hospital
+documents.
+
+It is a component of the Doctor & Hospital SOP
+RAG Assistant.
+
+## Purpose
+
+The LLM receives:
+
+- User question
+- Retrieved hospital documents
+
+and generates a concise answer based only
+on the provided context.
+
+## Architecture
+
+User Question
+       |
+       v
+Retrieved Context
+       |
+       v
+Hospital LLM
+       |
+       v
+Generated Answer
+       |
+       v
+Source
+
+## Model
+
+GPT-5.6 Luna
+
+## Input
+
+- User question
+- Retrieved document context
+
+## Output
+
+- Natural language answer
+- Hospital document source
+
+## Example
+
+Question:
+
+"What is the procedure for admitting an
+emergency patient?"
+
+Answer:
+
+"The emergency patient should first be
+registered at the emergency department.
+The triage nurse then performs an initial
+assessment."
+
+## Files
+
+- `llm.py` - Main LLM implementation
+- `generate.py` - Single question testing
+- `chat.py` - Interactive chatbot
+- `sample_context.txt` - Sample hospital context
+- `requirements.txt` - Required Python packages
+
+## Installation
+
+```bash
+pip install -r requirements.txt  
 
 ---
+## Input
+
+- User query
+- Retrieved hospital documents
+- Relevant SOP/context
+
+## Processing
+
+1. Receive the user query.
+2. Combine the query with retrieved documents.
+3. Create a grounded prompt.
+4. Send the prompt to the LLM.
+5. Generate an answer only from the provided context.
+6. If relevant information is missing, return a safe fallback response.
+
+## Output
+
+A clear, concise answer based on the retrieved hospital documents.
 
 
 

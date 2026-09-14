@@ -1,0 +1,12 @@
+Hospital Emergency Admission SOP
+
+Emergency patients must first be registered
+at the emergency department.
+
+The triage nurse must perform an initial
+assessment.
+
+Patients are then directed to the appropriate
+treatment area according to the emergency protocol.
+
+Source: emergency_admission_sop.pdf

@@ -1,106 +1,105 @@
-# Semantic Chunking of Hospital SOP Documents
+# Query Classification
 
-## 1. Topic Name
+## Overview
 
-**Semantic Chunking – Splitting Large Hospital SOP Documents into Meaningful Chunks**
+Query Classification is a sub-module of the Hospital RAG System.
 
-## 2. Overview
+The purpose of this module is to identify the intent or category of a user's query before the query is passed to the Query Router and retrieval components.
 
-Hospital Standard Operating Procedure (SOP) documents can be large and contain information about different procedures, rules, and guidelines. Processing the entire document at once can be difficult for NLP and AI systems.
+This helps the Hospital RAG system identify the appropriate type of information required for a query.
 
-**Semantic chunking** divides a large SOP document into smaller sections based on their meaning and context. Related sentences and information are kept together so that the important meaning of the document is preserved.
+## Workflow
 
-This approach is useful for document search, information retrieval, and **Retrieval-Augmented Generation (RAG)** systems.
+User Query
+    ↓
+Text Feature Extraction using TF-IDF
+    ↓
+Logistic Regression Classifier
+    ↓
+Query Category
+    ↓
+Confidence Score
+    ↓
+Query Router
 
-## 3. Definition
+## Classification Categories
 
-**Semantic chunking** is a technique of dividing a large document into smaller chunks based on the **semantic meaning and relationship between sentences or paragraphs**, rather than simply splitting the document after a fixed number of words or characters.
+The system supports the following categories:
 
-For hospital SOPs, semantic chunking ensures that related instructions, procedures, and guidelines remain together in the same chunk.
+1. HOSPITAL_INFO
+2. ADMISSION
+3. DEPARTMENT
+4. APPOINTMENT
+5. PROCEDURE
+6. MEDICATION
+7. DISCHARGE
+8. HOSPITAL_POLICY
+9. HR_POLICY
+10. EMERGENCY
+11. OUT_OF_SCOPE
 
-## 4. Methodology
+## Technologies Used
 
-The semantic chunking process can be performed through the following steps:
+- Python
+- Scikit-learn
+- TF-IDF Vectorization
+- Logistic Regression
 
-1. **Load the SOP Document**
-   Collect the hospital SOP document in PDF, Word, or text format.
+## How It Works
 
-2. **Extract the Text**
-   Extract the text, headings, paragraphs, and sections from the document.
+The user query is first converted into numerical features using TF-IDF.
 
-3. **Preprocess the Text**
-   Remove unnecessary spaces, repeated headers, page numbers, and unwanted characters.
+The Logistic Regression model then analyzes these features and predicts the most suitable query category.
 
-4. **Split into Sentences**
-   Divide the document into individual sentences or paragraphs.
+The system also provides a confidence score and the top three predicted categories.
 
-5. **Generate Semantic Embeddings**
-   Convert sentences into numerical representations called embeddings.
+## Example
 
-6. **Calculate Semantic Similarity**
-   Compare neighboring sentences to determine how closely their meanings are related.
+### Input
 
-7. **Identify Topic Changes**
-   When the semantic similarity between sentences decreases significantly, it can indicate a change in topic.
+What documents are required for admission?
 
-8. **Create Meaningful Chunks**
-   Group related sentences together to form meaningful chunks.
+### Output
 
-9. **Store the Chunks**
-   Store the chunks for further use in semantic search, document retrieval, or RAG applications.
+Category: ADMISSION
 
-### Simple Flow
+### Another Example
 
-```text
-Large Hospital SOP
-        ↓
-   Text Extraction
-        ↓
-   Sentence Splitting
-        ↓
-Semantic Embeddings
-        ↓
-Similarity Comparison
-        ↓
-  Topic Detection
-        ↓
- Meaningful Chunks
-```
+Input:
 
-## 5. Common Example
+Where is the cardiology department?
 
-### Original SOP Content
+Output:
 
-```text
-Patient Admission Procedure
+Category: DEPARTMENT
 
-The patient should be registered at the reception desk.
-The patient's identification details should be verified.
-The nurse should record the patient's vital signs.
-The patient should be assigned to the appropriate department.
-All admission details should be entered into the hospital record.
-```
+### Out-of-Scope Example
 
-### Semantic Chunks
+Input:
 
-**Chunk 1 – Patient Registration**
+Tell me a joke
 
-```text
-The patient should be registered at the reception desk.
-The patient's identification details should be verified.
-```
+Output:
 
-**Chunk 2 – Patient Assessment**
+Category: OUT_OF_SCOPE
 
-```text
-The nurse should record the patient's vital signs.
-The patient should be assigned to the appropriate department.
-```
+## Files
 
-**Chunk 3 – Documentation**
+### query_classifier.py
 
-```text
-All admission details should be entered into the hospital record.
-```
+Contains the training data, TF-IDF vectorizer, Logistic Regression model, classification function, and interactive query interface.
 
-Here, related information is grouped together based on its **meaning and context**, instead of simply splitting the SOP after a fixed number of words.
+### test_classifier.py
+
+Contains sample hospital queries used to test the classifier.
+
+### requirements.txt
+
+Contains the required Python dependency.
+
+## Running the Project
+
+Install the dependency:
+
+```bash
+pip install -r requirements.txt

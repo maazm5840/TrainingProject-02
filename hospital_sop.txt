@@ -1,0 +1,14 @@
+Patient Admission Procedure
+
+The patient should be registered at the reception desk.
+The patient's identification details should be verified.
+The nurse should record the patient's vital signs.
+The patient should be assigned to the appropriate department.
+All admission details should be entered into the hospital record.
+
+Emergency Patient Procedure
+
+Emergency patients should be immediately assessed by the medical staff.
+The patient's vital signs should be checked.
+Patients with life-threatening conditions should receive immediate treatment.
+The emergency treatment provided should be documented in the medical record.
